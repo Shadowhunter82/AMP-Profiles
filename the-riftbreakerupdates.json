@@ -1,0 +1,29 @@
+[
+    {
+        "UpdateStageName": "Download Server",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "4114030",
+        "UpdateSourceArgs": "780310",
+        "ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Fetch config.cfg Template",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Shadowhunter82/AMP-Profiles/main/the-riftbreaker.cfg",
+        "UpdateSourceArgs": "AMP_config.cfg",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Install vcrun2022 and d3dcompiler_47",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"xvfb-run -a winetricks -q vcrun2022 dsdcompiler_47\"",
+        "SkipOnFailure": false
+    }
+]
