@@ -1,0 +1,20 @@
+[
+    {
+        "UpdateStageName": "Update",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "4114030",
+        "UpdateSourceArgs": "780310",
+        "UpdateSourceTarget": "./riftbreaker/4114030/"
+    },
+	{
+        "UpdateStageName": "Fetch config.cfg Template",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Shadowhunter82/AMP-Profiles/main/riftbreaker.cfg",
+        "UpdateSourceArgs": "AMP_config.cfg",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    }
+]
