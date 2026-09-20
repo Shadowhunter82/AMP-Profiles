@@ -35,7 +35,7 @@ App.StoreSpecificSettings={}
 App.StoreDownloadLocations={}
 App.ExecutableWin=4114030\bin\DedicatedServer.exe
 App.ExecutableLinux=/usr/bin/wine
-App.WorkingDir=4114030/bin
+App.WorkingDir=4114030
 App.LinuxCommandLineArgs=./4114030/bin/DedicatedServer.exe
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} cli=1 config=config.cfg {{$FormattedArgs}}
