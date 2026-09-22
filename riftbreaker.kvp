@@ -11,7 +11,7 @@ Meta.ConfigManifest=riftbreakerconfig.json
 Meta.MetaConfigManifest=riftbreakermetaconfig.json
 Meta.ConfigRoot=riftbreaker.kvp
 Meta.MinAMPVersion=2.8.0.4
-Meta.SpecificDockerImage=cubecoders/ampbase:wine
+Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.DockerRequired=False
 Meta.DockerBaseReadOnly=False
 Meta.ContainerPolicy=Supported
@@ -35,7 +35,7 @@ App.StoreSpecificSettings={}
 App.StoreDownloadLocations={}
 App.ExecutableWin=4114030\bin\DedicatedServer.exe
 App.ExecutableLinux=/usr/bin/wine
-App.WorkingDir=4114030
+App.WorkingDir=4114030/bin
 App.LinuxCommandLineArgs=./4114030/bin/DedicatedServer.exe
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} cli=1 config=config.cfg {{$FormattedArgs}}
