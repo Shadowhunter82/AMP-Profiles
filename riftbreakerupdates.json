@@ -3,9 +3,9 @@
         "UpdateStageName": "Update",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
+		"UpdateSourceVersion": "public",
         "UpdateSourceData": "4114030",
         "UpdateSourceArgs": "780310",
-        "UpdateSourceTarget": "./riftbreaker/4114030/"
     },
 	{
         "UpdateStageName": "Fetch config.cfg Template",
