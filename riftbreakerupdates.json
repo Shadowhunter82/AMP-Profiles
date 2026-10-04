@@ -1,11 +1,13 @@
 [
     {
-        "UpdateStageName": "Update",
+        "UpdateStageName": "Riftbreaker Download/Update",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
 		"UpdateSourceVersion": "public",
         "UpdateSourceData": "4114030",
         "UpdateSourceArgs": "780310",
+		"ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": false
     },
 	{
         "UpdateStageName": "Fetch config.cfg Template",
