@@ -35,8 +35,8 @@ App.StoreSpecificSettings={}
 App.StoreDownloadLocations={}
 App.ExecutableWin=riftbreaker\4114030\bin\DedicatedServer.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
-App.WorkingDir=4114030
-App.LinuxCommandLineArgs=-a wine "./4114030/bin/DedicatedServer.exe"
+App.WorkingDir=4114030/bin
+App.LinuxCommandLineArgs=-a wine "./DedicatedServer.exe"
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} cli=1 config=config.cfg {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
